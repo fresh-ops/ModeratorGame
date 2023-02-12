@@ -7,12 +7,24 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/questionText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginBottom="32dp"
+        android:hint="@string/question_hint"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/generateQuestion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/generateQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/generate_button"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

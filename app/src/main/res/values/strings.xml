@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">ModeratorGame</string>
+    <string name="app_name">Модератор мероприятия</string>
+    <string name="question_hint">Здесь будет вопрос</string>
+    <string name="generate_button">Сгенерировать вопрос</string>
 </resources>
